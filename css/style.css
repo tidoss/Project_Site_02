@@ -1,0 +1,150 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Global*/
+header{
+    background-color: #43C23F;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+}
+
+header a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10x;
+}
+
+header .highlight, header .current a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+/*Showcase*/
+#showcase {
+    min-height: 400px;
+    background:url('../img/html_back.jpg') no-repeat 0 -350px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+   font-size: 20px;
+}
+
+/*newsletter*/
+#newsletter {
+    padding: 15px;
+    color: #ffffff; 
+    background-color: #43C23F;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*Boxes*/
+#boxes{
+    margin-top: 20px;   
+}
+
+#boxes .box{
+    float: left;
+    text-align:center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width:90px;
+    height: 90px;
+}
+
+/*sidebar*/
+aside#sidebar {
+    float: right;
+    width:30%;
+    margin-top: 10px; 
+}
+
+article#main-col {
+    float: left;
+    width:65%;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px; 
+    color: #ffffff; 
+    background-color: #43C23F;
+    text-align:center;
+}
